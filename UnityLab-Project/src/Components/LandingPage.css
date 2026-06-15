@@ -1,0 +1,52 @@
+.landingPage {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: white;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.auth-button{
+    padding: 10px 18px;
+    font-size: 14px;    
+    border: none;
+    background-color: #0a1f44;
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.main-content{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 90vh;
+
+
+}
+
+.main-content h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.main-content p {
+    font-size: 20px;
+}
