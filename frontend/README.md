@@ -1,7 +1,5 @@
 # Frontend
 
-This folder contains the Vite + React frontend for the university application system.
-
 ## Run locally
 
 ```bash
